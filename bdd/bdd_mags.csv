@@ -1,0 +1,48 @@
+ID;Titre;Premier num;Dernier num;Durée (années);Éditeur;Type;Num totaux;Num période;Num scan;Prix premier num;Prix dernier num;Périodicité
+1;"Amstrad Magazine
+Am Mag";1985-07;1989-04;4;"Laser Presse Magazine
+Laser Presse SA";Micro/PC;45;16;16;18F;22F;Mensuel
+2;"Amstar
+Amstar & CPC
+Amstar Informatique (var)";1986-09;1990-08;4;SORACOM Éditions;Micro/PC;50;34;34;8.50F;22F;Mensuel
+3;Amstrad Cent pour Cent;1988-02;1993-10;4.5;Média Système Éditions;Micro/PC;49;49;49;19F;25F;Mensuel
+4;Banzzaï;1992-05;1995-02;3;Pressimage;Console;30;30;26;10F;20F;"Bimestriel 
+Mensuel"
+5;CD Consoles;1994-11;1999-10;5;Pressimage;Console;55;46;20;30F;39F;Mensuel
+6;Consoles +;1991-09;2012-12;21;"Emap France
+Future France
+Yellow Media";Console;246;83;82;29F;6.95E;Mensuel
+7;Génération 4;1987-12;2004-09;17;"Pressimage
+Gen4 Publications";Généraliste;180;117;117;35F;5.95E;"Bimestriel 
+Mensuel"
+8;Joypad;1991-10;2011-09;20;"Disney Hachette Presse
+Future France
+Yellow Media";Console;222;81;65;30F;6.50E;Mensuel
+9;Joystick;1990-01;2012-12;22;"SIPRESS
+Disney Hachette Presse
+Future France
+Yellow Media
+M.E.R. 7";Généraliste;260;99;99;24F;7.95E;Mensuel
+10;Joystick Hebdo;1988-11;1989-11;1;SIPRESS;Généraliste;48;48;48;10F;12F;Bimensuel
+11;Mega Force;1991-07;1998-04 (?);6.5;Megapress SARL;"Console
+Constructeur";62;62;49;30;35F;"Bimestriel 
+Mensuel"
+12;"Micronews  
+MSX News (var)";1986-11;1992-01;6;Sandyx SA;Micro/PC;54;48;40;19F;25F;Mensuel
+13;"Nintendo Player 
+Les Jeux Nintendo par Player (var)";1991-10;1995-01;4;Média Système Éditions;"Console
+Constructeur";27;27;27;30F;30F;"Bimestriel  
+Mensuel"
+14;Player One;1990-09;2000-01;9;Média Système Éditions;Généraliste;104;92;92;15F;34F;Mensuel
+15;Playstation Magazine;1995-12;2000-10;5;Disney Hachette Presse;"Console
+Constructeur";46;26;15;35F;49F;"Bimestriel 
+Mensuel"
+16;Super Power;1992-07;1997-07;5;"SUMO Éditions SA
+SUMO Éditions SARL";"Console
+Constructeur";47;47;47;30F;35F;"Bimestriel 
+Mensuel"
+17;Supersonic;1992-05;1994-10;2.5;Pressimage;"Console
+Constructeur";25;25;16;10F;20F;"Bimestriel
+Mensuel"
+18;Tilt;1982-09;1994-01;11;Éditions Mondiales;Généraliste;122;72;72;15F;32F;"Bimestriel
+Mensuel"
