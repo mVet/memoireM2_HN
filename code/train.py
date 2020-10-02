@@ -8,7 +8,7 @@ import tensorflow as tf
 # General
 data_path = "../data/in/data/"  # Where is your input data
 work_path = "../data/out/"  # Where everything will be saved
-seed = 1338  # Random seed # 1337
+seed = 1338  # Random seed 
 verbose = 1  # 0: no output; 1: normal informations; 2: e v e r y th i n g
 
 # DataFrame
@@ -64,13 +64,13 @@ with strategy.scope():
 	arch.train(epochs=epochs, batch_size=batch_size, split_size=split_size, checkpoint_path=checkpoint_path,
 				early_stopping=early_stopping, verbose=verbose)
 	
-	#arch.model.save(filepath = '../data/out_test/test2/model.h5', save_format = 'h5')
-	#tf.io.write_graph(arch.model.tf.graph, '../data/out_test/', 'graph.pbtxt')
+	arch.model.save(filepath = '../data/out_test/test2/model.h5', save_format = 'h5')
 
 loss = arch.history()['loss']
 val_loss = arch.history()['val_loss']
 accuracy = arch.history()['accuracy']
 val_accuracy = arch.history()['val_accuracy']
+
 # Loss
 plt.plot(loss)
 plt.plot(val_loss)
@@ -80,6 +80,7 @@ plt.xlabel("Epoch")
 plt.legend(["Loss", "Validation Loss"])
 plt.show()
 print("Final loss: {}".format(loss[-1]))
+
 # Accuracy
 plt.plot(accuracy)
 plt.plot(val_accuracy)
@@ -107,7 +108,3 @@ ax2.tick_params(axis='y', labelcolor=color)
 
 fig.tight_layout()  # otherwise the right y-label is slightly clipped
 plt.show()
-
-
-imagesdata.show_image(6, show_infos=show_infos, show_labels=show_labels)
-arch.test_image(6, show_infos=show_infos, show_labels=show_labels, number_of_results=number_of_results,threshold=threshold, verbose=verbose)
