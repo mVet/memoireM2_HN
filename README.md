@@ -31,7 +31,7 @@ Nous avons utilisé les librairies suivantes :
 
 **C. Entraînement**
 
-Lancé le script train.py.
+Utilisez le script train.py.
 
 ****
 **II. Les bases de données**
