@@ -27,8 +27,8 @@ show_labels = True  # Show labels for images output
 # RCNN
 model_and_weights_path = "../data/out/"  # Where will the model and weights be saved/loaded
 loss = None  # Loss function; None: Use crossentropy
-opt = None  # Optimization function; None: Use Adame
-lr = 0.0001  # Learning rate #0.001 0.0001
+opt = None  # Optimization function; None: Use Adam
+lr = 0.0001  # Learning rate
 epochs = 20  # Number of epochs 20
 batch_size = 128 # 64
 split_size = 0.10  # Test/Train proportion
@@ -52,7 +52,7 @@ else:
     with open(imagesdata_pickle_path, 'wb') as fi:
         pickle.dump(imagesdata, fi)
 
-print('NB CLASSES : ' + str(imagesdata.get_num_classes()))
+print('NB CLASSES : ' + str(imagesdata.get_num_classes())) # check the classes
 
 tf.debugging.set_log_device_placement(True)
 
