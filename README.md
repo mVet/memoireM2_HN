@@ -15,6 +15,7 @@ Nous avons utilisé les librairies suivantes :
 - tqdm 4.49.0
 - pandas 1.1.2
 - sklearn 0.23.1
+- cuda 11.0.3
 
 **B. Structure des données**
 
